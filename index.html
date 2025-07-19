@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EcoCart - Sustainable Products</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- 🔹 Navigation Bar -->
+  <nav>
+    <div class="logo">🌿 EcoCart</div>
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Products</a></li>
+      <li><a href="#">Cart</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- 🔹 Hero Section (optional) -->
+  <header class="hero">
+    <h1>Sustainable Living Starts Here</h1>
+    <p>Eco-friendly alternatives to help the planet 🌍</p>
+  </header>
+
+  <!-- 🔹 Product Section -->
+  <section class="products">
+    <!-- Repeat for each product -->
+    <div class="product-card">
+      <img src="image/bamboo_toothbrush.png" alt="Bamboo Toothbrush">
+      <div class="details">
+        <h3>Bamboo Toothbrush</h3>
+        <p class="price">₹49</p>
+        <button data-price="49">Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="image/reusable_bottle.png" alt="Reusable Bottle">
+      <div class="details">
+        <h3>Reusable Bottle</h3>
+        <p class="price">₹89</p>
+        <button data-price="89">Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="image/cloth_bag.png" alt="Cloth Bag">
+      <div class="details">
+        <h3>Cloth Bag</h3>
+        <p class="price">₹69</p>
+        <button data-price="69">Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="image/metal_straw.png" alt="Metal Straw">
+      <div class="details">
+        <h3>Metal Straw</h3>
+        <p class="price">₹35</p>
+        <button data-price="35">Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="image/compost_bin.png" alt="Compost Bin">
+      <div class="details">
+        <h3>Compost Bin</h3>
+        <p class="price">₹129</p>
+        <button data-price="129">Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="image/recycled_notebook.png" alt="Recycled Notebook">
+      <div class="details">
+        <h3>Recycled Notebook</h3>
+        <p class="price">₹39</p>
+        <button data-price="39">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- 🔹 Footer -->
+  <footer>
+    <h2>Total: ₹<span id="total">0</span></h2>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
