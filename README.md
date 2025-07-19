@@ -5,7 +5,7 @@ E - COMMERCE WEBSITE
 🌱 Sustainable Living Starts Here – EcoKart ♻
 
 
-🛒 A clean, user-friendly e-commerce website promoting sustainable living through eco-friendly products, books, and more.
+• 🛒 A clean, user-friendly e-commerce website promoting sustainable living through eco-friendly products, books, and more.
 
 
 ✨ Project Highlights
